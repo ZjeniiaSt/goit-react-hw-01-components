@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 130px;
+  margin: 10px;
+  border: 2px solid plum;
+  color: plum;
+  background-color: pink;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+}
+.status {
+  margin: 15px;
+  font-size: 55px;
+}
+.name {
+  margin-left: 18px;
+  font-size: 28px;
+  font-weight: 500;
+}

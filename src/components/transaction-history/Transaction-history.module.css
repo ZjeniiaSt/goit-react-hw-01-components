@@ -1,0 +1,32 @@
+.table {
+  margin-top: 30px;
+  width: 800px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.head {
+  color: white;
+  text-transform: uppercase;
+}
+
+.head .item {
+  border: 1px solid #ffdeff;
+  padding: 20px;
+  background-color: rgb(102, 197, 102);
+}
+
+.list {
+  background-color: white;
+}
+
+.list:nth-child(2n) {
+  background-color: rgb(223, 240, 223);
+}
+
+.list .item {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #e4e9f0;
+}
