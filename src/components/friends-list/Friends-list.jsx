@@ -10,7 +10,7 @@ function FriendsList({ friends }) {
           <Friend
             name={friend.name}
             avatar={friend.avatar}
-            status={friend.isOnline}
+            isOnline={friend.isOnline}
           />
         </li>
       ))}

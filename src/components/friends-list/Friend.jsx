@@ -3,10 +3,10 @@ import styles from './Friend.module.css';
 import React, { Fragment } from 'react';
 
 function Friend(props) {
-  const { name, avatar, status } = props;
+  const { name, avatar, isOnline } = props;
   return (
     <Fragment>
-      <span className={styles.status}>{status}</span>
+      <span className={isOnline ? styles.on : styles.off}>{isOnline}</span>
       <img
         className={styles.avatar}
         src={avatar}
@@ -19,7 +19,7 @@ function Friend(props) {
 }
 
 Friend.propTypes = {
-  status: PropTypes.bool.isRequired,
+  isOnline: PropTypes.bool.isRequired,
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
 };
