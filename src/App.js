@@ -1,14 +1,14 @@
-import Profile from './components/social-profile/Profile';
-import user from './components/social-profile/user.json';
+import Profile from './components/SocialProfile/Profile';
+import user from './components/SocialProfile/user.json';
 
-import Statistics from './components/statistics/Statistics';
-import data from './components/statistics/data.json';
+import Statistics from './components/Statistics/Statistics';
+import data from './components/Statistics/data.json';
 
-import FriendsList from './components/friends-list/Friends-list';
-import friends from './components/friends-list/friends.json';
+import FriendsList from './components/FriendsList/FriendsList';
+import friends from './components/FriendsList/friends.json';
 
-import TransactionHistory from './components/transaction-history/Transaction-history';
-import transaction from './components/transaction-history/transaction.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import transaction from './components/TransactionHistory/transaction.json';
 
 function App() {
   return (
